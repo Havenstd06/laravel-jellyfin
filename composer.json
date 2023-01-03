@@ -1,0 +1,44 @@
+{
+    "name": "havenstd06/laravel-jellyfin",
+    "type": "library",
+    "description": "A Laravel package that allows access to the API of your Jellyfin server.",
+    "keywords": ["http", "rest", "web service", "jellyfin", "laravel jellyfin"],
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Thomas",
+            "email": "me@hvs.cx"
+        }
+    ],
+    "autoload": {
+        "psr-4": {
+            "Havenstd06\\LaravelJellyfin\\": "src/"
+        }
+    },
+    "require": {
+        "php": "^8.0",
+        "ext-curl": "*",
+        "guzzlehttp/guzzle": "~7.0",
+        "illuminate/support": "~6.0|~7.0|~8.0|~9.0",
+        "nesbot/carbon": "~2.0"
+    },
+    "require-dev": {
+        "phpunit/phpunit": "^8.0|^9.0",
+        "symfony/var-dumper": "~5.0"
+    },
+    "config": {
+        "sort-packages": true
+    },
+    "extra": {
+        "laravel": {
+            "providers": [
+                "Havenstd06\\LaravelJellyfin\\Providers\\JellyfinServiceProvider"
+            ],
+            "aliases": {
+                "Jellyfin": "Havenstd06\\LaravelJellyfin\\Facades\\Jellyfin"
+            }
+        }
+    },
+    "minimum-stability": "dev",
+    "prefer-stable": true
+}
