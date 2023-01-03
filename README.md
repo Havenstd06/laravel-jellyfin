@@ -6,6 +6,15 @@
     <img height="200" src="https://user-images.githubusercontent.com/33732634/210449526-9026f288-0b9e-436a-b315-10af018b73e0.png" />   
 </p>
 
+## Features
+The only sections available at the moment are:
+
+* Library
+* System
+* User
+
+Refer to [Jellyfin API Doc](https://api.jellyfin.org/)
+
 ## Installation
 
 ```bash
