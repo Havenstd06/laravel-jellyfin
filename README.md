@@ -3,7 +3,7 @@
 ### A Laravel package that allows access to the API of your Jellyfin server.
 
 <p align="center">
-    <img height="200" src="https://user-images.githubusercontent.com/33732634/201248345-0df081eb-da1d-4605-92bb-e4c40bfdcd78.png" />   
+    <img height="200" src="https://user-images.githubusercontent.com/33732634/210449526-9026f288-0b9e-436a-b315-10af018b73e0.png" />   
 </p>
 
 ## Installation
