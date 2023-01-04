@@ -68,7 +68,7 @@ trait JellyfinRequest
 
         $this->setRequestHeader('X-Emby-Token', $this->config['token']);
         $this->setRequestHeader('X-Application', $this->config['application'] ?: 'Laravel Jellyfin / v1.0');
-        $this->setRequestHeader('X-Emby-Authorization', 'MediaBrowser Client="Jellyfin CLI", Device="Jellyfin-CLI", DeviceId="None", Version="' . $this->config['version'] . '"');
+        $this->setRequestHeader('X-Emby-Authorization', 'MediaBrowser Client="' . $this->config['application'] . ' CLI", Device="'. $this->config['application'] .'-CLI", DeviceId="None", Version="' . $this->config['version'] . '"');
 
         $this->setOptions($this->config);
     }
